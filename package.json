@@ -1,0 +1,27 @@
+{
+  "name": "my-portfolio_website",
+  "version": "1.0.0",
+  "description": "This is a website is about the introduction of myself and my experience",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esmaelhussen/My-Portfolio_Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esmaelhussen/My-Portfolio_Website/issues"
+  },
+  "homepage": "https://github.com/esmaelhussen/My-Portfolio_Website#readme",
+  "devDependencies": {
+    "hint": "^7.1.12",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
