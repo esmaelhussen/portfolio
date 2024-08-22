@@ -94,7 +94,7 @@ nav {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  padding: 10px 0px;
+  padding-top: 10px;
 }
 
 .subheading-lists {
@@ -132,7 +132,8 @@ nav {
   line-height: 24px;
   gap: 8px;
   list-style: none;
-  padding: 10px 0px 10px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .lan {
@@ -144,13 +145,14 @@ nav {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-weight: 500;
-  line-height: 16px;
   letter-spacing: 0.03em;
 }
 
 .see {
   height: 72px;
-  padding: 12px 169px 12px 0px;
+  padding-top: 12px;
+  padding-right: 169px;
+  padding-bottom: 12px;
 }
 
 .see-project {
@@ -212,14 +214,19 @@ nav {
   font-weight: 500;
   line-height: 24px;
   padding-top: 20px;
-  color: #000000;
+  color: #000;
+}
+
+.web-lang img {
+  margin-right: 15px;
 }
 
 .lists li img {
-  padding: 25px 0px 0px 0px;
+  padding-top: 25px;
 }
+
 .web-lang {
-  padding: 12px 0px 0px 0px;
+  padding-top: 12px;
 }
 
 .web-lang li {
@@ -234,8 +241,4 @@ nav {
   color: #253858;
   display: flex;
   align-items: center;
-}
-
-.web-lang img {
-  margin-right: 15px;
 }
