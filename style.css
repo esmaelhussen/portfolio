@@ -94,7 +94,7 @@ nav {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  padding: 10px 0px;
+  padding-top: 10px;
 }
 
 .subheading-lists {
@@ -132,7 +132,8 @@ nav {
   line-height: 24px;
   gap: 8px;
   list-style: none;
-  padding: 10px 0px 10px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .lan {
@@ -144,13 +145,14 @@ nav {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-weight: 500;
-  line-height: 16px;
   letter-spacing: 0.03em;
 }
 
 .see {
   height: 72px;
-  padding: 12px 169px 12px 0px;
+  padding-top: 12px;
+  padding-right: 169px;
+  padding-bottom: 12px;
 }
 
 .see-project {
@@ -212,14 +214,19 @@ nav {
   font-weight: 500;
   line-height: 24px;
   padding-top: 20px;
-  color: #000000;
+  color: #000;
+}
+
+.web-lang img {
+  margin-right: 15px;
 }
 
 .lists li img {
-  padding: 25px 0px 0px 0px;
+  padding-top: 25px;
 }
+
 .web-lang {
-  padding: 12px 0px 0px 0px;
+  padding-top: 12px;
 }
 
 .web-lang li {
@@ -236,6 +243,122 @@ nav {
   align-items: center;
 }
 
-.web-lang img {
-  margin-right: 15px;
+.contact {
+  background-color: #6070ff;
+  background-image: url(assets/pictures/contact.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  border-top-left-radius: 70px;
+}
+
+.contact-me {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  padding-top: 120px;
+  padding-bottom: 10px;
+}
+
+.detail {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  padding-left: 30px;
+  padding-right: 24px;
+  padding-bottom: 40px;
+}
+
+.form {
+  padding-left: 24px;
+  padding-right: 34px;
+  list-style-type: none;
+}
+
+.name,
+.email {
+  width: 327px;
+  height: 48px;
+  border-radius: 10px;
+  border-color: #fff;
+  border-style: solid;
+}
+
+.name {
+  margin-bottom: 15px;
+}
+
+.email {
+  margin-bottom: 15px;
+}
+
+.message {
+  border-radius: 10px;
+  border-color: #fff;
+  border-style: solid;
+  width: 327px;
+  height: 170px;
+  margin-bottom: 15px;
+}
+
+.submit {
+  width: 142px;
+  height: 48px;
+  border-radius: 10px;
+  border-color: #fff;
+  border-style: solid;
+  background-color: #fff;
+}
+
+.get {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #6070ff;
+}
+
+.name::placeholder,
+.email::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 10px;
+  color: #172b4d;
+}
+
+.message::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #b3bac5;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.submit:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit:active {
+  box-shadow: 2px 2px 5px black;
+}
+
+.light {
+  padding-top: 10px;
 }
