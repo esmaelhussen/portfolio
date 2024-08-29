@@ -227,6 +227,7 @@ header {
   display: flex;
   border-top-left-radius: 70px;
 }
+
 .contact-me {
   font-size: 40px;
   text-align: center;
@@ -244,6 +245,7 @@ header {
   padding-right: 24px;
   padding-bottom: 40px;
 }
+
 .form {
   padding-left: 24px;
   list-style-type: none;
@@ -257,12 +259,15 @@ header {
   border-color: #fff;
   border-style: solid;
 }
+
 .name {
   margin-bottom: 15px;
 }
+
 .email {
   margin-bottom: 15px;
 }
+
 .message {
   border-radius: 10px;
   border-color: #fff;
@@ -271,6 +276,7 @@ header {
   height: 170px;
   margin-bottom: 15px;
 }
+
 .submit {
   width: 142px;
   height: 48px;
@@ -279,12 +285,14 @@ header {
   border-style: solid;
   background-color: #fff;
 }
+
 .get {
   font-size: 17px;
   font-weight: 500;
   letter-spacing: 0.03em;
   color: #6070ff;
 }
+
 .name::placeholder,
 .email::placeholder {
   font-size: 17px;
@@ -300,43 +308,53 @@ header {
   padding-left: 10px;
   padding-top: 15px;
 }
+
 .submit:hover {
   color: #fff;
   cursor: pointer;
 }
+
 .submit:active {
   box-shadow: 2px 2px 5px black;
 }
+
 .footer {
   padding-top: 10px;
 }
+
 @media screen and (min-width: 768px) {
   .mobile {
     display: none;
   }
+
   .desktop {
     display: block;
   }
+
   .logo {
     padding-left: 3rem;
   }
+
   .navi {
     display: flex;
     gap: 2rem;
     padding-right: 3rem;
   }
+
   .nav-d {
     text-decoration: none;
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
   }
+
   .section-first {
     background-image: url(assets/pictures/desktop.svg);
     padding: 220px 218px 300px 230px;
     margin-top: 70px;
     background-size: contain;
   }
+
   .cards {
     flex-direction: row;
     justify-content: center;
@@ -344,6 +362,7 @@ header {
     height: 100%;
     gap: 34px;
   }
+
   .about-myself {
     display: flex;
     gap: 20px;
@@ -358,10 +377,12 @@ header {
     padding-left: 100px;
     width: 40%;
   }
+
   .right {
     padding-right: 100px;
     width: 60%;
   }
+
   .contact {
     background-image: url(assets/pictures/desk-contact.svg);
     text-align: center;
@@ -371,10 +392,12 @@ header {
   .footer {
     display: none;
   }
+
   .works {
     justify-content: center;
     gap: 8rem;
   }
+
   #card-1 {
     flex-direction: row-reverse;
   }
