@@ -10,12 +10,19 @@
 
 <body>
   <header>
-    <a href="#" class="logo">MY LOGO</a>
-    <nav>
+    <a href="#" class="logo">Esmael</a>
+    <nav class="mobile">
       <img src="assets/pictures/union.svg" />
     </nav>
+    <nav class="desktop">
+      <div class="navi">
+        <a class="nav-d"  href="#intro">Portfolio</a>
+        <a class="nav-d" href="#contact-page">Contact</a>
+        <a class="nav-d" href="#About">About</a>
+      </div>
+    </nav>
   </header>
-  <section class="section-first">
+  <section class="section-first" id="intro">
     <h2 class="greeting">I'm Esmael.<br />Glad to see <br />You!</h2>
     <p class="job-description">
       I'm a programmer and student of computer science.I can help you to
@@ -41,10 +48,12 @@
       </li>
     </ul>
   </section>
+
+
   <section class="works">
-    <div class="cards">
+    <div  class="cards">
       <img src="assets/pictures/Snapshoot Portfolio.svg" alt="snapshoot" />
-      <div class="cards-description">
+      <div>
         <h2 class="card-titles">Tonic</h2>
         <div class="subheading-lists">
           <span class="canopy">CANOPY</span>
@@ -69,9 +78,9 @@
         </div>
       </div>
     </div>
-    <div class="cards">
+    <div id="card-1" class="cards">
       <img class="snapshoot" src="assets/pictures/Snapshoot Portfolio000.svg" alt="snapshoot" />
-      <div class="cards-description">
+      <div>
         <h2 class="card-titles">Multi-Post Stories</h2>
         <div class="subheading-lists">
           <span class="canopy">CANOPY</span>
@@ -95,11 +104,13 @@
         <div class="see">
           <button class="see-project">See Project</button>
         </div>
-      </div>
     </div>
+  </div>
+
     <div class="cards">
+      
       <img class="snapshoot" src="assets/pictures/Snapshoot Portfolio (1).svg" alt="snapshoot" />
-      <div class="cards-description">
+      <div>
         <h2 class="card-titles">Tonic</h2>
         <div class="subheading-lists">
           <span class="canopy">CANOPY</span>
@@ -123,11 +134,11 @@
         <div class="see">
           <button class="see-project">See Project</button>
         </div>
-      </div>
     </div>
-    <div class="cards">
+  </div>
+    <div id="card-1" class="cards"> 
       <img class="snapshoot" src="assets/pictures/Snapshoot Portfolio (2).svg" alt="snapshoot" />
-      <div class="cards-description">
+      <div>
         <h2 class="card-titles">Multi-Post
           Stories</h2>
         <div class="subheading-lists">
@@ -152,10 +163,11 @@
         <div class="see">
           <button class="see-project">See Project</button>
         </div>
-      </div>
     </div>
+  </div>
   </section>
-  <section class="about-myself">
+  <section class="about-myself" id="About">
+    <div class="left">
     <h2 class="greeting">About-Myself</h2>
     <p class="job-description"> I'm a programmer and student of computer science.I can help you to
       build your website through my experience.If you like this page and
@@ -184,6 +196,8 @@
     <div class="resume">
       <button class="my-resume">Get my resume</button>
     </div>
+  </div>
+  <div class="right">
     <ul id="aboutme-list">
       <ul class="lists">
         <li>
@@ -212,11 +226,11 @@
         <li><img src="assets/pictures/Icon - Chevron - Right - Larger.svg" alt=""></li>
       </ul>
       <img src="assets/pictures/Separator Bottom.svg" alt="">
+    </div>
   </section>
-<section class="contact">
+<section class="contact" id="contact-page">
 <h2 class="contact-me">Contact me</h2>
-<p class="detail">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-  I’d love to help with it!</p>
+<p class="detail">If you have an application you are interested in <br>developing, a feature that you need built or a project <br> that needs coding. I’d love to help with it!</p>
   <ul class="form">
 <li><form action="https://formspree.io/f/movapnjw" method="post" class="contacts"></li>
 <li><input type="text" name="name" class="name" placeholder="esmael" maxlength="30" required></li>
@@ -225,7 +239,7 @@
 <li><button name="submit" type="submit" class="submit" ><p class="get">Get in touch</p></button></li>
 </form>
 </ul>
-<img src="assets/pictures/Light.svg" alt="footer image" class="light">
+<img src="assets/pictures/Light.svg" alt="footer image" class="footer">
 </section>
 </body>
 </html>
