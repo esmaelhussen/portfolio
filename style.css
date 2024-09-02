@@ -27,6 +27,21 @@ header {
   display: none;
 }
 
+.animation {
+  animation-duration: 3s;
+  animation-name: first-time;
+}
+
+@keyframes first-time {
+  from {
+    translate: 100vw 0;
+  }
+
+  to {
+    translate: 0 0;
+  }
+}
+
 .section-first {
   background-image: url(assets/pictures/header-shapes\ mobile@2x.svg);
   background-repeat: no-repeat;
@@ -312,6 +327,7 @@ header {
 .submit:hover {
   color: #fff;
   cursor: pointer;
+  background-color: rgb(171, 168, 172);
 }
 
 .submit:active {
@@ -346,6 +362,12 @@ header {
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
+    transition: all 1s ease-out;
+  }
+
+  .nav-d:hover {
+    color: #fff;
+    background-color: #2230d2;
   }
 
   .section-first {
