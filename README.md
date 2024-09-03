@@ -78,9 +78,9 @@ https://github.com/esmaelhussen/My-Portfolio_Website.git
 
 👤 **Author1**
 
-- GitHub: [@esm](https://github.com/esmaelhussen)
-- Twitter: [@esm](https://twitter.com/esmael)
-- LinkedIn: [esm](https://linkedin.com/in/esmael)
+- GitHub: [click-here](https://github.com/esmaelhussen)
+- Twitter: [click-here](www.twitter.com/esmaelhussenA)
+- LinkedIn: [click-here](https://linkedin.com/in/esmael-hussen-6b52a1325)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,10 +103,10 @@ Feel free to check the [issues page](../../issues/).
 
 If you like this project you can contact me on the below links .....
 
-- GitHub: [@esm](https://github.com/esmaelhussen)
-- Twitter: [@esm](https://twitter.com/esmael)
-- LinkedIn: [esm](https://linkedin.com/in/esmael)
-- Telegram: [esm](https://telegram.com/esmael)
+- GitHub: [click-here](https://github.com/esmaelhussen)
+- Twitter: [click-here](www.twitter.com/esmaelhussenA)
+- LinkedIn: [click-here](https://linkedin.com/in/esmael-hussen-6b52a1325)
+- Telegram: [click-here](https://t.me/@esmhsnabd)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
