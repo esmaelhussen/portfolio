@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/esmaelhussen/My-Portfolio_Website.git)
+- [Live Demo Link](https://esmaelhussen.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
