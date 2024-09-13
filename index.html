@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="src/output.css">
   <title>My portfolio</title>
 </head>
-
 <body>
-  <header>
+  <header >
     <a href="#" class="logo">Esmael</a>
     <nav class="mobile">
-      <img src="assets/pictures/union.svg" />
+      <img src="assets/pictures/union.svg" alt="menu-button" class="menu-button"/>
     </nav>
+
     <nav class="desktop">
       <div class="navi">
         <a class="nav-d"  href="#intro">Portfolio</a>
@@ -22,6 +22,16 @@
       </div>
     </nav>
   </header>
+
+  <div id="mobile-menu" class="mobile-menu">
+    <div id="close-menu" class="close-menu">x</div>
+    <ul>
+        <li><a href="#intro">Portfolio</a></li>
+        <li><a href="#contact-page">Contact</a></li>
+        <li><a href="#About">About</a></li>
+    </ul>
+</div>
+
   <section class="section-first" id="intro">
     <div class="animation">
     <h2 class="greeting">I'm Esmael.<br />Glad to see <br />You!</h2>
@@ -30,7 +40,6 @@
       build your website through my experience.If you like this page and
       want build your project contact me on the below social medias.
     </p>
-  
     <h2 class="social-links">LET'S CONNECT</h2>
     <ul class="social-media-links">
       <li>
@@ -51,8 +60,6 @@
     </ul>
   </div>
   </section>
-
-
   <section class="works">
     <div  class="cards">
       <img src="assets/pictures/Snapshoot Portfolio.svg" alt="snapshoot" />
@@ -60,9 +67,9 @@
         <h2 class="card-titles">Tonic</h2>
         <div class="subheading-lists">
           <span class="canopy">CANOPY</span>
-          <img src="assets/pictures/Counter.svg" alt="" />
+          <img src="assets/pictures/Counter.svg" alt="circle-button" />
           <span class="subheading-list-title"> Back End Dev</span>
-          <img src="assets/pictures/Counter.svg" alt="" />
+          <img src="assets/pictures/Counter.svg" alt="circle-button" />
           <span class="subheading-list-title"> 2015</span>
         </div>
         <section class="card-content">
@@ -87,9 +94,9 @@
         <h2 class="card-titles">Multi-Post Stories</h2>
         <div class="subheading-lists">
           <span class="canopy">CANOPY</span>
-          <img src="assets/pictures/Counter.svg" alt="" />
+          <img src="assets/pictures/Counter.svg" alt="circle-button" />
           <span class="subheading-list-title">Back End Dev</span>
-          <img src="assets/pictures/Counter.svg" alt="" />
+          <img src="assets/pictures/Counter.svg" alt="circle-button" />
           <span class="subheading-list-title">2015</span>
           <p class="descript"></p>
         </div>
@@ -109,17 +116,15 @@
         </div>
     </div>
   </div>
-
     <div class="cards">
-      
       <img class="snapshoot" src="assets/pictures/Snapshoot Portfolio (1).svg" alt="snapshoot" />
       <div>
         <h2 class="card-titles">Tonic</h2>
         <div class="subheading-lists">
           <span class="canopy">CANOPY</span>
-          <img src="assets/pictures/Counter.svg" alt="" />
+          <img src="assets/pictures/Counter.svg" alt="circle-button" />
           <span class="subheading-list-title">Back End Dev</span>
-          <img src="assets/pictures/Counter.svg" alt="" />
+          <img src="assets/pictures/Counter.svg" alt="circle-button" />
           <span class="subheading-list-title">2015</span>
           <p class="descript"></p>
         </div>
@@ -146,9 +151,9 @@
           Stories</h2>
         <div class="subheading-lists">
           <span class="canopy">CANOPY</span>
-          <img src="assets/pictures/Counter.svg" alt="" />
+          <img src="assets/pictures/Counter.svg" alt="circle-button" />
           <span class="subheading-list-title">Back End Dev</span>
-          <img src="assets/pictures/Counter.svg" alt="" />
+          <img src="assets/pictures/Counter.svg" alt="circle-button" />
           <span class="subheading-list-title">2015</span>
           <p class="descript"></p>
         </div>
@@ -185,8 +190,7 @@
         <a href="#"><img src="assets/pictures/Vector.svg" alt="twitter-tab" class="twitter-img" /></a>
       </li>
       <li>
-        <a href="#"><img src="assets/pictures/Vector (2).svg" alt="medium-tab" "
-                /></a>
+        <a href="#"><img src="assets/pictures/Vector (2).svg" alt="medium-tab" /></a>
             </li>
             <li>
               <a href=" https://github.com/esmaelhussen"><img src="assets/pictures/Vector (1).svg" alt="github-tab" "
@@ -210,25 +214,25 @@
       </ul>
       <ul class="web-lang">
         <li>
-          <img src="assets/pictures/Ellipse 1.png" alt=""> JavaScript
+          <img src="assets/pictures/Ellipse 1.png" alt="JavaScript-image"> JavaScript
         </li>
-        <li><img src="assets/pictures/Ellipse 1 (1).png" alt="">HTML</li>
-        <li><img src="assets/pictures/Ellipse 1 (2).png" alt="">CSS</li>
+        <li><img src="assets/pictures/Ellipse 1 (1).png" alt="HTML-image">HTML</li>
+        <li><img src="assets/pictures/Ellipse 1 (2).png" alt="CSS-image">CSS</li>
       </ul>
       <ul class="lists">
         <li>
           <h4>Frameworks</h4>
         </li>
-        <li><img src="assets/pictures/Icon - Chevron - Right - Larger.svg" alt=""></li>
+        <li><img src="assets/pictures/Icon - Chevron - Right - Larger.svg" alt="drop-down-image"></li>
       </ul>
-      <img src="assets/pictures/Separator Bottom.svg" alt="">
+      <img src="assets/pictures/Separator Bottom.svg" alt="line-image">
       <ul class="lists">
         <li>
           <h4>Skills</h4>
         </li>
-        <li><img src="assets/pictures/Icon - Chevron - Right - Larger.svg" alt=""></li>
+        <li><img src="assets/pictures/Icon - Chevron - Right - Larger.svg" alt="drop-down-image"></li>
       </ul>
-      <img src="assets/pictures/Separator Bottom.svg" alt="">
+      <img src="assets/pictures/Separator Bottom.svg" alt="line-image">
     </div>
   </section>
 <section class="contact" id="contact-page">
@@ -244,5 +248,6 @@
 </ul>
 <img src="assets/pictures/Light.svg" alt="footer image" class="footer">
 </section>
+<script src="script.js"></script>
 </body>
 </html>
