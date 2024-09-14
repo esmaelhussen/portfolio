@@ -15,3 +15,28 @@ menuLinks.forEach((link) => {
     mobileMenu.style.display = 'none';
   });
 });
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('.nav-d');
+
+const options = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.7,
+};
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      navLinks.forEach((link) => link.classList.remove('active'));
+
+      const currentLink = document.querySelector(
+        `a[href="#${entry.target.id}"]`
+      );
+      if (currentLink) {
+        currentLink.classList.add('active');
+      }
+    }
+  });
+}, options);
+
+sections.forEach((section) => observer.observe(section));

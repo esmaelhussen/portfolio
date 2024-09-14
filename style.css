@@ -422,6 +422,11 @@ header {
     background-color: #2230d2;
   }
 
+  .nav-d.active {
+    color: #2a80745b;
+    text-decoration: underline;
+  }
+
   .section-first {
     background-image: url(assets/pictures/desktop.svg);
     padding: 220px 218px 300px 230px;
