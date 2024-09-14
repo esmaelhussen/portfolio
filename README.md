@@ -37,10 +37,10 @@
     <li><a href="https://html.com/">HTML</a></li>
   </ul>
   <ul>
-    <li><a href="https://https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/">CSS</a></li>
   </ul>
   <ul>
-    <li><a href="https://https://developer.mozilla.org/en-US/docs/Web/JavaScript/">JavaScript</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/">JavaScript</a></li>
   </ul>
 </details>
 
