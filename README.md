@@ -34,10 +34,13 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://HTML.org/">HTML</a></li>
+    <li><a href="https://html.com/">HTML</a></li>
   </ul>
   <ul>
-    <li><a href="https://CSS.org/">CSS</a></li>
+    <li><a href="https://https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/">CSS</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://https://developer.mozilla.org/en-US/docs/Web/JavaScript/">JavaScript</a></li>
   </ul>
 </details>
 
@@ -118,8 +121,8 @@ I would like to thank all persons help me to get knowldge about programming and 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](LICENSE.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+_NOTE: we recommend using the [MIT license](LICENSE.md) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
