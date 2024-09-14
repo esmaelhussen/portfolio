@@ -68,7 +68,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git https://github.com/esmaelhussen/My-Portfolio_Website.git
+  git clone https://github.com/esmaelhussen/My-Portfolio_Website.git
 ```
 
 Download it from github by:
