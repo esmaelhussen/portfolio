@@ -7,12 +7,19 @@
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   padding-top: 16px;
   padding-bottom: 16px;
   display: flex;
   justify-content: space-between;
   padding-left: 32px;
   padding-right: 32px;
+  background-color: #fff;
+  z-index: 1000;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .logo {
@@ -29,6 +36,8 @@ header {
 
 .menu-button {
   cursor: pointer;
+  padding-left: 6rem;
+  background: url('assets/pictures/union.svg') no-repeat center center;
 }
 
 .mobile-menu {
@@ -36,8 +45,11 @@ header {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(63, 94, 231, 0.952);
+  background-color: rgb(33 74 254 / 76%);
   display: none;
+  z-index: 1001;
+  overflow-y: auto;
+  backdrop-filter: blur(6px);
 }
 
 .mobile-menu li {
@@ -370,6 +382,12 @@ header {
 @media screen and (max-width: 768px) {
   .section-first {
     background-size: cover;
+  }
+  .section-first,
+  .works,
+  .about-myself,
+  .contact {
+    margin-top: 80px;
   }
 }
 @media screen and (min-width: 768px) {
