@@ -149,7 +149,8 @@ header {
 .subheading-lists {
   display: flex;
   gap: 12px;
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .canopy {
@@ -379,6 +380,58 @@ header {
 .footer {
   padding-top: 10px;
 }
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1d1a1a7d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1002;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  height: 80%;
+  max-width: 500px;
+  position: relative;
+}
+
+.close-popup {
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #8a7a7a;
+}
+
+.btns {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  padding-top: 15rem;
+}
+
+.links {
+  border: 1px solid #396df2;
+  border-radius: 5px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  color: #396df2;
+}
+
+.btn-image {
+  margin-left: 1.5rem;
+}
+
 @media screen and (max-width: 768px) {
   .section-first {
     background-size: cover;
@@ -436,7 +489,6 @@ header {
 
   .cards {
     flex-direction: row;
-    justify-content: center;
     background-color: white;
     height: 100%;
     gap: 34px;
@@ -477,7 +529,7 @@ header {
     gap: 8rem;
   }
 
-  #card-1 {
+  #row {
     flex-direction: row-reverse;
   }
 }
