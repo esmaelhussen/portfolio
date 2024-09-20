@@ -133,7 +133,7 @@ function showPopup(index) {
                   <img src="assets/pictures/Counter.svg" alt="circle-button" />
                   <span class="subheading-list-title">2015</span>
               </div>
-          <img src="${project.featuredImage}" alt="${project.name}" />
+          <img class="popup-image" src="${project.featuredImage}" alt="${project.name}" />
           <p class="card-content">${project.description}</p>
           <ul class="webdev-languages">
           <li class="lan">HTML</li>
@@ -163,3 +163,17 @@ document.addEventListener('click', (event) => {
 });
 
 window.onload = displayProjects;
+
+document.addEventListener('submit', function (event) {
+  const emailInput = document.querySelector('.email');
+  const errorMessage = document.getElementById('error-message');
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    event.preventDefault();
+    errorMessage.textContent =
+      'Email must be in lowercase. you can use now converted to lowercase just enter the button';
+    errorMessage.style.display = 'block';
+    emailInput.value = emailInput.value.toLowerCase();
+  } else {
+    errorMessage.style.display = 'none';
+  }
+});

@@ -432,6 +432,11 @@ header {
   margin-left: 1.5rem;
 }
 
+#error-message {
+  color: red;
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .section-first {
     background-size: cover;
