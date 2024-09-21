@@ -544,4 +544,7 @@ header {
   #row {
     flex-direction: row-reverse;
   }
+  .btnss {
+    justify-content: center;
+  }
 }
