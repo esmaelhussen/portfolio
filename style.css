@@ -335,7 +335,8 @@ header {
   margin-bottom: 15px;
 }
 
-.submit {
+.submit,
+.reset {
   width: 142px;
   height: 48px;
   border-radius: 10px;
@@ -367,13 +368,15 @@ header {
   padding-top: 15px;
 }
 
-.submit:hover {
+.submit:hover,
+.reset:hover {
   color: #fff;
   cursor: pointer;
-  background-color: rgb(171, 168, 172);
+  background-color: rgb(220, 196, 228);
 }
 
-.submit:active {
+.submit:active,
+.reset:active {
   box-shadow: 2px 2px 5px black;
 }
 
@@ -437,6 +440,10 @@ header {
   display: none;
 }
 
+.btnss {
+  display: flex;
+  gap: 1rem;
+}
 @media screen and (max-width: 768px) {
   .section-first {
     background-size: cover;
