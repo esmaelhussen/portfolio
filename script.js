@@ -177,3 +177,35 @@ document.addEventListener('submit', function (event) {
     errorMessage.style.display = 'none';
   }
 });
+
+const contactForm = document.getElementById('contactForm');
+const names = document.querySelector('.name');
+const emails = document.querySelector('.email');
+const messages = document.querySelector('.message');
+const saves = localStorage.getItem('contactFormData');
+const resets = document.querySelector('.reset');
+if (saves) {
+  const formData = JSON.parse(saves);
+  names.value = formData.name || '';
+  emails.value = formData.email || '';
+  messages.value = formData.message || '';
+}
+const savedata = () => {
+  const formData = {
+    name: names.value,
+    email: emails.value,
+    message: messages.value,
+  };
+  localStorage.setItem('contactFormData', JSON.stringify(formData));
+};
+const resetForm = () => {
+  names.value = '';
+  emails.value = '';
+  messages.value = '';
+  localStorage.removeItem('contactFormData');
+};
+
+names.addEventListener('input', savedata);
+emails.addEventListener('input', savedata);
+messages.addEventListener('input', savedata);
+resets.addEventListener('click', resetForm);
