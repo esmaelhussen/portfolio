@@ -79,11 +79,11 @@ https://github.com/esmaelhussen/My-Portfolio_Website.git
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Esmael hussen**
 
 - GitHub: [click-here](https://github.com/esmaelhussen)
 - Twitter: [click-here](www.twitter.com/esmaelhussenA)
-- LinkedIn: [click-here](https://linkedin.com/in/esmael-hussen-6b52a1325)
+- LinkedIn: [click-here](https://linkedin.com/in/esmaelhussen)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
