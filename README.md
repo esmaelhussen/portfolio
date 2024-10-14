@@ -108,7 +108,7 @@ If you like this project you can contact me on the below links .....
 
 - GitHub: [click-here](https://github.com/esmaelhussen)
 - Twitter: [click-here](www.twitter.com/esmaelhussenA)
-- LinkedIn: [click-here](https://linkedin.com/in/esmael-hussen-6b52a1325)
+- LinkedIn: [click-here](https://linkedin.com/in/esmaelhussen)
 - Telegram: [click-here](https://t.me/@esmhsnabd)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
