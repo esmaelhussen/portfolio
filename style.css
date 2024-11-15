@@ -101,6 +101,13 @@ header {
   line-height: 52px;
 }
 
+.jobD{
+  color: #172b4d;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 52px;
+}
+
 .job-description {
   color: #344563;
   font-weight: 400;
@@ -397,6 +404,10 @@ header {
   z-index: 1002;
 }
 
+a{
+  text-decoration: none;
+}
+
 .popup-content {
   background: #fff;
   padding: 20px;
@@ -419,7 +430,7 @@ header {
   display: flex;
   gap: 15px;
   justify-content: center;
-  padding-top: 15rem;
+  padding-top: 7rem;
 }
 
 .links {

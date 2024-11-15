@@ -43,38 +43,40 @@ sections.forEach((section) => observer.observe(section));
 
 const projects = [
   {
-    name: 'Tonic',
+    name: 'Adult-tech-solution',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'Adult-Tech-Solution is an idea of empowering of learned and experienced Adults in different sectors to make them experienced on work environment and to live happy life.',
     featuredImage: 'assets/pictures/Snapshoot Portfolio.svg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveVersion: '#',
-    sourceLink: '#',
+    liveVersion: 'https://esmaelhussen.github.io/Adult-tech-solution/',
+    sourceLink: 'https://github.com/esmaelhussen/Adult-tech-solution',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Awesome-book',
     description:
-      'A project that enables users to create multiple posts easily.',
+      'A basic website that allows users to add/remove books from a list.',
     featuredImage: 'assets/pictures/Snapshoot Portfolio000.svg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveVersion: '#',
-    sourceLink: '#',
+    liveVersion: 'https://esmaelhussen.github.io/Awesome-book/',
+    sourceLink: 'https://github.com/esmaelhussen/Awesome-book',
   },
   {
-    name: 'Tonic',
-    description: 'An interactive platform for daily personalized reads.',
+    name: 'To do list',
+    description:
+      'To do list is a tool designed to help you organize your daily tasks. It presents a list of activities you need to complete and gives you the ability to mark them as done. You will create a straightforward website to implement this functionality, using ES6 and Webpack!',
     featuredImage: 'assets/pictures/Snapshoot Portfolio (1).svg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveVersion: '#',
-    sourceLink: '#',
+    liveVersion: 'https://esmaelhussen.github.io/To-do-list/',
+    sourceLink: 'https://github.com/esmaelhussen/To-do-list',
   },
   {
-    name: 'Multi-Post Stories',
-    description: 'A tool for users to share multiple posts seamlessly.',
+    name: 'Alpha-Calculator',
+    description:
+      'Alpha calculator is simple arthimetic calculator developed by HTML and CSS.',
     featuredImage: 'assets/pictures/Snapshoot Portfolio (2).svg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveVersion: '#',
-    sourceLink: '#',
+    liveVersion: 'https://esmaelhussen.github.io/Alpha-Calculator/',
+    sourceLink: 'https://github.com/esmaelhussen/Alpha-Calculator',
   },
 ];
 
@@ -141,9 +143,16 @@ function showPopup(index) {
           <li class="lan">JavaScript</li>
         </ul>
           <div class="btns">
-              <button type="button" class="links"> See Live <a href="${project.liveVersion}" target="_blank"></a><img class="btn-image" src="assets/pictures/Icon-power.svg" alt="circle-button" /></button>
-
-              <button type="button" class="links"> See Source <a href="${project.sourceLink}" target="_blank"></a><img class="btn-image" src="assets/pictures/github-white.svg" alt="circle-button" /></button>
+              <a href="${project.liveVersion}" target="_blank">
+                <button type="button" class="links">See Live
+                  <img class="btn-image" src="assets/pictures/Icon-power.svg" alt="circle-button" />
+                </button>
+              </a>
+              <a href="${project.sourceLink}" target="_blank">
+                <button type="button" class="links">See Source
+                  <img class="btn-image" src="assets/pictures/github-white.svg" alt="circle-button" />
+                </button>
+              </a>
           </div>
       </div>
   `;
